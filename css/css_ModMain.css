@@ -1,0 +1,118 @@
+﻿.GridTextCenter {
+    text-align: center;
+}
+
+.GridTextRight {
+    text-align: right;
+}
+
+.cssCheckboxWidthHeight20px {
+    height: 20px;
+    width: 20px;
+}
+
+
+/*==================css loading=================*/
+.modal {
+    position: fixed;
+    z-index: 999;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: Black;
+    filter: alpha(opacity=60);
+    opacity: 0.6;
+    -moz-opacity: 0.8;
+}
+
+.center {
+    height: 72px;
+    width: 82px;
+    z-index: 1000;
+    padding: 10px;
+    background-color: White;
+    border-radius: 10px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    /* The magic centering code */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0; /* Aligns Vertically - Remove for Horizontal Only */
+    left: 0;
+    right: 0; /* Aligns Horizontally - Remove for Vertical Only  */
+}
+
+.center img {
+        height: 54px;
+        width: 64px;
+    }
+
+.center2 {
+    height: 56px;
+    width: 66px;
+    z-index: 1000;
+    padding: 10px;
+    background-color: White;
+    border-radius: 10px;
+    filter: alpha(opacity=100);
+    opacity: 1;
+    -moz-opacity: 1;
+    /* The magic centering code */
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0; /* Aligns Vertically - Remove for Horizontal Only */
+    left: 0;
+    right: 0; /* Aligns Horizontally - Remove for Vertical Only  */
+}
+
+.center2 img {
+    height: 54px;
+    width: 64px;
+}
+
+
+/*#ContentPlaceHolder1_RepPeriod_DXDataRow2  {
+    background:#99ff33;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow4,#ContentPlaceHolder1_RepPeriod_DXDataRow5,#ContentPlaceHolder1_RepPeriod_DXDataRow7,#ContentPlaceHolder1_RepPeriod_DXDataRow9,#ContentPlaceHolder1_RepPeriod_DXDataRow15 {
+    background:#f8cbad;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow6,#ContentPlaceHolder1_RepPeriod_DXDataRow20,#ContentPlaceHolder1_RepPeriod_DXDataRow21,#ContentPlaceHolder1_RepPeriod_DXDataRow22,#ContentPlaceHolder1_RepPeriod_DXDataRow27 {
+     background:#ffff00;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow6 td:first-child,#ContentPlaceHolder1_RepPeriod_DXDataRow23 td:first-child,#ContentPlaceHolder1_RepPeriod_DXDataRow24 td:first-child,#ContentPlaceHolder1_RepPeriod_DXDataRow28 td:first-child{
+    color:red;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow8,#ContentPlaceHolder1_RepPeriod_DXDataRow13,#ContentPlaceHolder1_RepPeriod_DXDataRow16 {
+    background:#99ff33;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow10,#ContentPlaceHolder1_RepPeriod_DXDataRow14,#ContentPlaceHolder1_RepPeriod_DXDataRow17,#ContentPlaceHolder1_RepPeriod_DXDataRow25 {
+    background:#ccff66;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow11 td:first-child {
+    color:red;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow18,#ContentPlaceHolder1_RepPeriod_DXDataRow19,#ContentPlaceHolder1_RepPeriod_DXDataRow26 {
+    background:#bdd7ee;
+}
+
+#ContentPlaceHolder1_RepPeriod_DXDataRow29 {
+    background:#ffccff;
+}*/
+
+
+.dxeEditArea.dxeDisabled{
+color:#000000 !important;
+
+}
